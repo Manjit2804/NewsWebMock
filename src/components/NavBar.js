@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import logo from "../images/logo-1.png";
 
 export class NavBar extends Component {
   render() {
     return (
       <div>
+        <a className="navbar-brand" href="/" style={{ marginLeft: 100 }}>
+          <img src={logo} alt="levisalazer" />
+        </a>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="/">
-              NewsWeb
-            </a>
             <button
               className="navbar-toggler"
               type="button"
